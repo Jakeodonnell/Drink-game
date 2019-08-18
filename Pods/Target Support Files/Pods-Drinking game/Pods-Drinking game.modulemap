@@ -1,0 +1,6 @@
+framework module Pods_Drinking_game {
+  umbrella header "Pods-Drinking game-umbrella.h"
+
+  export *
+  module * { export * }
+}

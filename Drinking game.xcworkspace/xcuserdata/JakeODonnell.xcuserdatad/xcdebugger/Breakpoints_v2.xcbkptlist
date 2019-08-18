@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Drinking game/ViewController.swift"
+            timestampString = "586903227.495582"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drinking_game.ViewController.wallpapers.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Drinking game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/JakeODonnell/Desktop/Projekt/XcodeProject/Drinking%20game/Drinking%20game/ViewController.swift"
+                  timestampString = "586901172.5210561"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drinking_game.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Drinking_game.ViewController"
+                  moduleName = "Drinking game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/JakeODonnell/Desktop/Projekt/XcodeProject/Drinking%20game/Drinking%20game/ViewController.swift"
+                  timestampString = "586901172.522337"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drinking_game.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Drinking_game.ViewController&gt;"
+                  moduleName = "Drinking game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/JakeODonnell/Desktop/Projekt/XcodeProject/Drinking%20game/Drinking%20game/ViewController.swift"
+                  timestampString = "586901172.523555"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Drinking game/pestellerkolera.swift"
+            timestampString = "586984668.085941"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "pestellerkolera"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drinking_game.pestellerkolera.wallpapers.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Drinking game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/JakeODonnell/Desktop/Projekt/XcodeProject/Drinking%20game/Drinking%20game/pestellerkolera.swift"
+                  timestampString = "586984644.35471"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drinking_game.pestellerkolera.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Drinking_game.pestellerkolera"
+                  moduleName = "Drinking game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/JakeODonnell/Desktop/Projekt/XcodeProject/Drinking%20game/Drinking%20game/pestellerkolera.swift"
+                  timestampString = "586984644.363075"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drinking_game.pestellerkolera.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Drinking_game.pestellerkolera&gt;"
+                  moduleName = "Drinking game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/JakeODonnell/Desktop/Projekt/XcodeProject/Drinking%20game/Drinking%20game/pestellerkolera.swift"
+                  timestampString = "586984644.372002"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
