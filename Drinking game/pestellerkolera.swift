@@ -10,18 +10,59 @@ import UIKit
 import MaterialComponents
 
 class pestellerkolera: UIViewController {
-
+    
+    /*
+     @IBAction func next(_ sender: Any) {
+     if(wallOrder != 10){
+     wallOrder = (abs(wallOrder + 1))
+     questionsLabel.text = questions[wallOrder]
+     counter = (abs(counter + 1))
+     counterQuestion.text = "\((counter))"
+     wallpaper.image = UIImage(named: wallpapers[wallOrder])
+     print(wallOrder)
+     }
+     }
+     */
     var wallOrder:Int = 0
     var counter:Int = 1
+    let pestFraga = ["Aldrig mer åka buss"]
+    let koleraFraga = ["Aldrig mer åka tåg"]
+    
+    @IBOutlet weak var counterQuestion: UILabel!
     let wallpapers = ["wallpaper/1.jpg", "wallpaper/2.jpg", "wallpaper/3.jpg", "wallpaper/4.jpg", "wallpaper/5.jpg", "wallpaper/6.jpg", "wallpaper/7.jpg", "wallpaper/8.jpg", "wallpaper/9.jpg", "wallpaper/10.jpg", "wallpaper/11.jpg", "wallpaper/12.jpg", "wallpaper/13.jpg", "wallpaper/14.jpg", "wallpaper/15.jpg", "wallpaper/16.jpg", "wallpaper/17.jpg", "wallpaper/18.jpg", "wallpaper/19.jpg", ]
     
     @IBOutlet weak var wallpaper: UIImageView!
     
+    @IBOutlet weak var pestknapp: UIButton!
+    @IBOutlet weak var koleraknapp: UIButton!
+    
+    @IBAction func colera(_ sender: Any) {
+        if(wallOrder != 10){
+            wallOrder = (abs(wallOrder + 1))
+            pestknapp.setTitle(pestFraga[wallOrder], for: .normal)
+            counter = (abs(counter + 1))
+            counterQuestion.text = "\((counter))"
+            wallpaper.image = UIImage(named: wallpapers[wallOrder])
+            print(wallOrder)
+        }
+    }
+    @IBAction func pest(_ sender: Any) {
+        if(wallOrder != 10){
+            wallOrder = (abs(wallOrder + 1))
+            koleraknapp.setTitle(koleraFraga[wallOrder], for: .normal)
+            counter = (abs(counter + 1))
+            counterQuestion.text = "\((counter))"
+            wallpaper.image = UIImage(named: wallpapers[wallOrder])
+            print(wallOrder)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        koleraknapp.setTitle(koleraFraga[wallOrder], for: .normal)
+        pestknapp.setTitle(pestFraga[wallOrder], for: .normal)
+        counterQuestion.text = "\(counter)"
         wallpaper.image = UIImage(named: wallpapers[wallOrder])
-}
+    }
     
     @IBAction func menu(_ sender: Any) {
         let actionSheet = MDCActionSheetController(title: "Välj vilket spel du vill spela nedan!")
@@ -33,26 +74,26 @@ class pestellerkolera: UIViewController {
             self.present(Pekleken, animated: true, completion: nil)
             
         })
-          let actionTwo =
-         MDCActionSheetAction(title: "Jag har aldrig", image: UIImage(named: "Email"), handler: { (action) in
-            
-            let mainStoryBoard: UIStoryboard = UIStoryboard(name:"Main", bundle:nil)
-            let jagharaldrig = mainStoryBoard.instantiateViewController(withIdentifier: "jagharaldrig") as! jagharaldrig
-            self.present(jagharaldrig, animated: true, completion: nil)
-        })
+        let actionTwo =
+            MDCActionSheetAction(title: "Jag har aldrig", image: UIImage(named: "Email"), handler: { (action) in
+                
+                let mainStoryBoard: UIStoryboard = UIStoryboard(name:"Main", bundle:nil)
+                let jagharaldrig = mainStoryBoard.instantiateViewController(withIdentifier: "jagharaldrig") as! jagharaldrig
+                self.present(jagharaldrig, animated: true, completion: nil)
+            })
         
-      
-            let actionThree =
+        
+        let actionThree =
             MDCActionSheetAction(title: "Start", image: UIImage(named: "Email"), handler: { (action) in
                 
                 let mainStoryBoard: UIStoryboard = UIStoryboard(name:"Main", bundle:nil)
                 let ViewController = mainStoryBoard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
                 self.present(ViewController, animated: true, completion: nil)
-            
-            
-            
-           
-        })
+                
+                
+                
+                
+            })
         
         
         
@@ -65,13 +106,13 @@ class pestellerkolera: UIViewController {
     }
     
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

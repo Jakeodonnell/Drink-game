@@ -12,13 +12,29 @@
 		0A03B01022FB406C00333181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A03B00E22FB406C00333181 /* Main.storyboard */; };
 		0A03B01222FB406C00333181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A03B01122FB406C00333181 /* Assets.xcassets */; };
 		0A03B01522FB406C00333181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A03B01322FB406C00333181 /* LaunchScreen.storyboard */; };
+		0A52139C240DA6CD001D18D9 /* drink.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A52139B240DA6CD001D18D9 /* drink.png */; };
 		0AB21E7122FB453F00DBCF00 /* Burning Orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AB21E7022FB453E00DBCF00 /* Burning Orange.jpg */; };
 		0AB21E7322FB458300DBCF00 /* Pekleken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB21E7222FB458300DBCF00 /* Pekleken.swift */; };
 		0AB21E7522FB459D00DBCF00 /* pestellerkolera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB21E7422FB459D00DBCF00 /* pestellerkolera.swift */; };
 		0AB21E7722FB45A900DBCF00 /* jagharaldrig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB21E7622FB45A900DBCF00 /* jagharaldrig.swift */; };
 		0AB21E7B22FB53FE00DBCF00 /* wallpaper in Resources */ = {isa = PBXBuildFile; fileRef = 0AB21E7A22FB53FE00DBCF00 /* wallpaper */; };
-		2529FD767F3F35621165DC6D /* Pods_Drinking_game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EB7B902BE5C4994691B104 /* Pods_Drinking_game.framework */; };
+		0ACE3A2A2409327E0020A17F /* Pods_Drinking_game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EB7B902BE5C4994691B104 /* Pods_Drinking_game.framework */; };
+		0ACE3A2B2409327E0020A17F /* Pods_Drinking_game.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75EB7B902BE5C4994691B104 /* Pods_Drinking_game.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0ACE3A2C2409327E0020A17F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0ACE3A2B2409327E0020A17F /* Pods_Drinking_game.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A03B00722FB406C00333181 /* Drinking game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drinking game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,11 +44,13 @@
 		0A03B01122FB406C00333181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A03B01422FB406C00333181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A03B01622FB406C00333181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A52139B240DA6CD001D18D9 /* drink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drink.png; path = ../../../../Downloads/drink.png; sourceTree = "<group>"; };
 		0AB21E7022FB453E00DBCF00 /* Burning Orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Burning Orange.jpg"; sourceTree = "<group>"; };
 		0AB21E7222FB458300DBCF00 /* Pekleken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pekleken.swift; sourceTree = "<group>"; };
 		0AB21E7422FB459D00DBCF00 /* pestellerkolera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pestellerkolera.swift; sourceTree = "<group>"; };
 		0AB21E7622FB45A900DBCF00 /* jagharaldrig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jagharaldrig.swift; sourceTree = "<group>"; };
 		0AB21E7A22FB53FE00DBCF00 /* wallpaper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = wallpaper; sourceTree = "<group>"; };
+		0ACE3A26240932420020A17F /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EB7B902BE5C4994691B104 /* Pods_Drinking_game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drinking_game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D112A863CFD70A8F03AA33A /* Pods-Drinking game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drinking game.debug.xcconfig"; path = "Target Support Files/Pods-Drinking game/Pods-Drinking game.debug.xcconfig"; sourceTree = "<group>"; };
 		FD402E21B73BE1A69D2F758B /* Pods-Drinking game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drinking game.release.xcconfig"; path = "Target Support Files/Pods-Drinking game/Pods-Drinking game.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2529FD767F3F35621165DC6D /* Pods_Drinking_game.framework in Frameworks */,
+				0ACE3A2A2409327E0020A17F /* Pods_Drinking_game.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +100,7 @@
 				0A03B01122FB406C00333181 /* Assets.xcassets */,
 				0A03B01322FB406C00333181 /* LaunchScreen.storyboard */,
 				0A03B01622FB406C00333181 /* Info.plist */,
+				0A52139B240DA6CD001D18D9 /* drink.png */,
 			);
 			path = "Drinking game";
 			sourceTree = "<group>";
@@ -98,6 +117,7 @@
 		B55FFACAFADC864C8F1ECB90 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0ACE3A26240932420020A17F /* MDFInternationalization.framework */,
 				75EB7B902BE5C4994691B104 /* Pods_Drinking_game.framework */,
 			);
 			name = Frameworks;
@@ -115,6 +135,7 @@
 				0A03B00422FB406C00333181 /* Frameworks */,
 				0A03B00522FB406C00333181 /* Resources */,
 				C5D6BF0E84C0988FFF7A05A8 /* [CP] Embed Pods Frameworks */,
+				0ACE3A2C2409327E0020A17F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB21E7122FB453F00DBCF00 /* Burning Orange.jpg in Resources */,
+				0A52139C240DA6CD001D18D9 /* drink.png in Resources */,
 				0AB21E7B22FB53FE00DBCF00 /* wallpaper in Resources */,
 				0A03B01522FB406C00333181 /* LaunchScreen.storyboard in Resources */,
 				0A03B01222FB406C00333181 /* Assets.xcassets in Resources */,
@@ -379,7 +401,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.GateMap.Drinking-game";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GateMap.Drinking-gamee";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -399,7 +421,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.GateMap.Drinking-game";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GateMap.Drinking-gamee";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

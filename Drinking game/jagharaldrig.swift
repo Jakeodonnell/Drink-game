@@ -13,7 +13,23 @@ class jagharaldrig: UIViewController {
     var wallOrder:Int = 0
     var counter:Int = 1
 
+    @IBOutlet weak var Fragor: UILabel!
+    
+    @IBOutlet weak var questionsLabel: UILabel!
+    
     let wallpapers = ["wallpaper/1.jpg", "wallpaper/2.jpg", "wallpaper/3.jpg", "wallpaper/4.jpg", "wallpaper/5.jpg", "wallpaper/6.jpg", "wallpaper/7.jpg", "wallpaper/8.jpg", "wallpaper/9.jpg", "wallpaper/10.jpg", "wallpaper/11.jpg", "wallpaper/12.jpg", "wallpaper/13.jpg", "wallpaper/14.jpg", "wallpaper/15.jpg", "wallpaper/16.jpg", "wallpaper/17.jpg", "wallpaper/18.jpg", "wallpaper/19.jpg"]
+    
+    let questions = ["...tagit den i röven.",
+                     "...blivit påkommen när jag kollat på porr.",
+                     "...runkat åt en animerad karaktär.",
+                     "...släppt en fis och sen skyllt denna gasattack på någon annan.",
+                     "...fejkat en orgasm.",
+                     "...blivit påkommen när jag onanerat.",
+                     "...ljugit om att maten jag blivit bjuden på smakade gott när jag fick frågan.",
+                     "...ljugit om att jag kan spela ett musikinstrument.",
+                     "...druckit så mycket att jag skitit ned mig.",
+                     "...tyckt att min spegelbild varit så vacker att jag kysst den.",
+                     "...vaknat upp bredvid någon som närmast liknade ett troll ifrån träsket.", "12", "13", "14", "15", "16", "17", "18", "19"]
     
     
     @IBOutlet weak var counterQuestion: UILabel!
@@ -22,23 +38,25 @@ class jagharaldrig: UIViewController {
     @IBOutlet weak var rightArrow: UIImageView!
     
     @IBAction func next(_ sender: Any) {
-        if(wallOrder != 10){
-        wallOrder = (abs(wallOrder + 1))
-        counter = (abs(counter + 1))
-        counterQuestion.text = "\((counter))"
-        wallpaper.image = UIImage(named: wallpapers[wallOrder])
-        print(wallOrder)
-        }
+         if(wallOrder != 10){
+              wallOrder = (abs(wallOrder + 1))
+              questionsLabel.text = questions[wallOrder]
+              counter = (abs(counter + 1))
+              counterQuestion.text = "\((counter))"
+              wallpaper.image = UIImage(named: wallpapers[wallOrder])
+              print(wallOrder)
+              }
     }
     
     @IBAction func prev(_ sender: Any) {
-        if(wallOrder != 0){
-        wallOrder = (abs(wallOrder - 1)) % 11
-        counter = (abs(counter - 1)) % 11
-        counterQuestion.text = "\((counter))"
-        wallpaper.image = UIImage(named: wallpapers[wallOrder])
-        }
-        print(wallOrder)
+         if(wallOrder != 0){
+              wallOrder = (abs(wallOrder - 1)) % 11
+              questionsLabel.text = questions[wallOrder]
+              counter = (abs(counter - 1)) % 11
+              counterQuestion.text = "\((counter))"
+              wallpaper.image = UIImage(named: wallpapers[wallOrder])
+              }
+              print(wallOrder)
 
     }
     
@@ -46,6 +64,7 @@ class jagharaldrig: UIViewController {
     @IBOutlet weak var wallpaper: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        questionsLabel.text = questions[wallOrder]
         counterQuestion.text = "\(counter)"
         wallpaper.image = UIImage(named: wallpapers[wallOrder])
         leftArrow.image = UIImage(named: "wallpaper/left.png")

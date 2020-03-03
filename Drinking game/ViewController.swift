@@ -21,8 +21,23 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        addParallaxToView(vw: view)
         // Do any additional setup after loading the view.
+    }
+    func addParallaxToView(vw: UIView) {
+        let amount = 100
+
+        let horizontal = UIInterpolatingMotionEffect(keyPath: "center.x", type: .tiltAlongHorizontalAxis)
+        horizontal.minimumRelativeValue = -amount
+        horizontal.maximumRelativeValue = amount
+
+        let vertical = UIInterpolatingMotionEffect(keyPath: "center.y", type: .tiltAlongVerticalAxis)
+        vertical.minimumRelativeValue = -amount
+        vertical.maximumRelativeValue = amount
+
+        let group = UIMotionEffectGroup()
+        group.motionEffects = [horizontal, vertical]
+        vw.addMotionEffect(group)
     }
     @IBAction func gameChooser(_ sender: Any){
         let actionSheet = MDCActionSheetController(title: "Välj vilket spel du vill spela nedan!")

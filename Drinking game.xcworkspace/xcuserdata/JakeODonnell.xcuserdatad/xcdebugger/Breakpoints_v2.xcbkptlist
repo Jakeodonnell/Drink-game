@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "8DADF683-E727-4302-BB0B-CC7828879A14"
    type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "BC0F10C8-28A6-48CC-9FD4-1DE004CE79A9"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -19,6 +21,7 @@
             landmarkType = "3">
             <Locations>
                <Location
+                  uuid = "BC0F10C8-28A6-48CC-9FD4-1DE004CE79A9 - dce5bab46ea4ca3a"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -34,6 +37,7 @@
                   offsetFromSymbolStart = "88">
                </Location>
                <Location
+                  uuid = "BC0F10C8-28A6-48CC-9FD4-1DE004CE79A9 - 347e2d36fc56df61"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -49,6 +53,7 @@
                   offsetFromSymbolStart = "152">
                </Location>
                <Location
+                  uuid = "BC0F10C8-28A6-48CC-9FD4-1DE004CE79A9 - 7b55116b5ee710ea"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -69,6 +74,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "0679EFFA-1C7F-4AF8-B077-CD5D78060FBD"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -82,6 +88,7 @@
             landmarkType = "3">
             <Locations>
                <Location
+                  uuid = "0679EFFA-1C7F-4AF8-B077-CD5D78060FBD - 3b687a48e5bc29d1"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -97,6 +104,7 @@
                   offsetFromSymbolStart = "88">
                </Location>
                <Location
+                  uuid = "0679EFFA-1C7F-4AF8-B077-CD5D78060FBD - cf9106e96bf63be3"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -112,6 +120,7 @@
                   offsetFromSymbolStart = "296">
                </Location>
                <Location
+                  uuid = "0679EFFA-1C7F-4AF8-B077-CD5D78060FBD - 7ce67fbf49716c27"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -127,6 +136,22 @@
                   offsetFromSymbolStart = "240">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D5264CC-1E2A-44DC-9867-65A26EE2C91C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Drinking game/jagharaldrig.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "jagharaldrig"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
