@@ -15,7 +15,20 @@ class Pekleken: UIViewController {
     var counter:Int = 1
     var questions = ["1","2","3","4","5","6","7","8","9","10","11","12"]
 
+    /*
     
+    let questions = ["...Vara riktigt snuskig i sängen",
+                     "...Begå det perfekta mordet",
+                     "...Bli miljonär",
+                     "...Gifta sig med en kändis",
+                     "...Flytta ut i en stuga i skogen",
+                     "...Hamna i fängelse inom 5 år",
+                     "...Onanera mest",
+                     "...Ljuga om vad den röstar på",
+                     "...Kolla på riktigt sjuk porr",
+                     "...Låta någon som rymt från fängelset gömma sig hos den.",
+                     "...Skaffa barn först", "12", "13", "14", "15", "16", "17", "18", "19"]
+    */
     @IBOutlet weak var text: UILabel!
     
     @IBOutlet weak var questionLabel: UIButton!
