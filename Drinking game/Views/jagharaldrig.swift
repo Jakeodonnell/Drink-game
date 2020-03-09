@@ -26,31 +26,8 @@ class jagharaldrig: UIViewController {
      let wallpapers = ["wallpaper/1.jpg", "wallpaper/2.jpg", "wallpaper/3.jpg", "wallpaper/4.jpg", "wallpaper/5.jpg", "wallpaper/6.jpg", "wallpaper/7.jpg", "wallpaper/8.jpg", "wallpaper/9.jpg", "wallpaper/10.jpg", "wallpaper/11.jpg", "wallpaper/12.jpg", "wallpaper/13.jpg", "wallpaper/14.jpg", "wallpaper/15.jpg", "wallpaper/16.jpg", "wallpaper/17.jpg", "wallpaper/18.jpg", "wallpaper/19.jpg", ]
      */
     @IBOutlet weak var amountOfQuestions: UILabel!
+    var questions = ["1","2","3","4","5","6","7","8","9","10","11","12"]
     
-    var questions = [
-        "...blivit påkommen när jag kollat på porr.",
-        "...onanerat utomhus.",
-        "...haft sex i en bil.",
-        "...tänk på någon annan under sex.",
-        "...blivit påkommen när jag onanerat.",
-        "...ångrat ett ligg.",
-        "...haft sex med en ögonbindel.",
-        "...varit otrogen.",
-        "...haft sex med någon i detta rummet.",
-        "...haft trekant.",
-        "...sugit kuk/ fått min kuk avsugen under färd.",
-        "...haft sex på en toalett.",
-        "...blivit påkommen när jag legat.",
-        "...använt en sexleksak under sex.",
-        "...knarkat.",
-        "...utnyttjat någon för pengar",
-        "...gråtit på klubben.",
-        "...spytt när jag varit full.",
-        "...varit ett hemsläp.",
-        "...fårr spärma i ögat.",
-        "...haft sex i mina föräldrars säng.",
-        "...haft sex med flera personer under en och samma dag."
-    ]
     var questionsDicks = [
            "...blivit påkommen när jag kollat på porr.",
            "...slickat fitt."
