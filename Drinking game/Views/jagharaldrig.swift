@@ -28,22 +28,7 @@ class jagharaldrig: UIViewController {
     @IBOutlet weak var amountOfQuestions: UILabel!
     var questions = ["1","2","3","4","5","6","7","8","9","10","11","12"]
     
-    var questionsDicks = [
-           "...blivit påkommen när jag kollat på porr.",
-           "...slickat fitt."
-    ]
-    
-    let girlQuestions = [
-        "...spytt när jag sugit kuk.",
-        "...tagit den i röven.",
-        "...haft sex med någon 10 år ändre än mig.",
-        "...spottat under samlag.",
-        "...sugit kuk under färd.",
-        "...legat med någon med en liten snopp.",
-        "...slickat fitt."
-        
-    ]
-    
+  
     @IBAction func next(_ sender: Any) {
         if(wallOrder != questions.count - 1){
             wallOrder = (abs(wallOrder + 1))
